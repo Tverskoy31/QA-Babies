@@ -6,23 +6,27 @@ public class Book implements Displayable {
     private String author;
     private int yearOfPublication;
 
-    public String getName (){
+    public String getName() {
         return name;
     }
-    public void setName(String name){
+
+    public void setName(String name) {
         this.name = name;
     }
 
-    public String getAuthor (){
+    public String getAuthor() {
         return author;
     }
-    public void setAuthor(String author){
+
+    public void setAuthor(String author) {
         this.author = author;
     }
-    public int getYearOfPublication (){
+
+    public int getYearOfPublication() {
         return yearOfPublication;
     }
-    public void setYearOfPublication(int yearOfPublication){
+
+    public void setYearOfPublication(int yearOfPublication) {
         this.yearOfPublication = yearOfPublication;
     }
 

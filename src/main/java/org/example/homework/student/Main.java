@@ -6,9 +6,9 @@ public class Main {
         student1.setName("Женя");
         student1.setNumberGradeBook(123454321);
         student1.setAverageScore(4);
-        System.out.printf("Имя студента1 " + student1.getName());
-        System.out.printf("Номер зачетной1 книжки " + student1.getNumberGradeBook());
-        System.out.printf("Средний балл1 " + student1.getAverageScore());
+        System.out.println("Имя студента1 " + student1.getName());
+        System.out.println("Номер зачетной1 книжки " + student1.getNumberGradeBook());
+        System.out.println("Средний балл1 " + student1.getAverageScore());
         student1.print();
     }
 }

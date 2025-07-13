@@ -8,7 +8,6 @@ public class Main {
         Student student2 = new Student("Jon", "id_Jon");
         System.out.println(student2.toString());
 
-
         StudentManager studentManager = new StudentManager();
         studentManager.addStudent(student1);
         studentManager.addStudent(student2);
